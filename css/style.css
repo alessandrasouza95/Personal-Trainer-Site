@@ -313,6 +313,10 @@ h1, h2, h3, h4, h5, h6, figure {
           right: 0;
           opacity: .3;
           background: #000; }
+          li .eduardo{
+            height: 50px;
+            width: 50px;
+          }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 7em;
       z-index: 1000;
