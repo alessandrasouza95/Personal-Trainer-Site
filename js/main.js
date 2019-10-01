@@ -296,10 +296,7 @@
         owlCrouselFeatureSlide();
     });
 
-
-    var $('scheduleBtn').click(function () {
-
-    })
+    $('scheduleBtn').click(agendar);
 
     var agendar = function () {
         var scheduling = JSON.stringify({
