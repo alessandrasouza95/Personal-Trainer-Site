@@ -296,9 +296,9 @@
         owlCrouselFeatureSlide();
     });
 
-    $('scheduleBtn').click(agendar);
+    document.getElementById("scheduleBtn").addEventListener("click", agendar);
 
-    var agendar = function () {
+    function agendar() {
         var scheduling = JSON.stringify({
             DateTimeSchedule: $('dateTimeSchedule').val(),
             Email: $('email').val(),
@@ -318,7 +318,7 @@
             ]
         }
 
-        allSchedules.push(scheduling);
+        //allSchedules.push(scheduling);
         localStorage.setItem('allSchedules', allSchedules);
 
         alert("Seu agendamento foi solicitado!");
